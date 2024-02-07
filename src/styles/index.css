@@ -1,0 +1,155 @@
+
+    body {
+        font-family: 'Inter', sans-serif;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        
+        min-height: 100vh;
+        
+        background-color: var(--color-grey-1);
+        color: #fff;
+        
+        padding: 2.5rem;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+        padding-top: 30px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+
+        margin: 0 auto;
+
+        width: 60%;
+        width: 40rem;
+        max-width: 100%;
+
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+    
+
+    }
+
+    h1 {
+        font-size: var(--font-1);
+        font-weight: bold;
+        text-align: center;
+
+        margin-top: 20px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+
+        width: 100%;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+
+        background-color: var(--color-grey-2);
+
+        border-radius: 0.5rem;
+
+        padding-left: 0.7rem;
+    }
+
+    #loading {
+        font-size: var(--font-1);
+        font-weight: 500;
+
+        color: #ADB5BD;
+    }
+
+    #searchBtn{
+        justify-items: center;
+        position: absolute;
+
+        margin-left: 20px;
+
+        background-color: blue;
+        
+        padding: 10px 15px;
+        
+        border-radius: 10px;
+
+        cursor: pointer;
+    }
+
+    #searchBtn:hover{
+        background-color: rgba(11, 22, 124, 0.577);
+
+        border-radius: 14px;
+    }
+
+
+    .div-pesquisa{
+        justify-items: center;
+
+        margin-right: 45px;
+    }
+
+    input{
+        justify-content: space-between;
+
+        color: white;
+
+        font-weight: bold;
+        text-align: center;
+
+        height: 40px;
+        width: 10rem;
+
+        border: none;
+        border-radius: 8px;
+        border: 2px solid blue;
+
+        text-decoration: none;
+
+        background-color: var(--color-grey-1);
+
+        outline: none;
+
+    }
+
+    input:hover{
+
+        border: 2px solid rgb(18, 18, 199);
+    }
+
+    .hidden {
+
+        display: block;
+    }
+
+    @media(min-width: 900px){
+
+        .div-pesquisa{
+            justify-items: center;
+
+            margin-right: 80px;
+        }
+
+        input{
+            
+            width: 12rem;
+        }
+    }
